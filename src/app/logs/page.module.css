@@ -26,6 +26,19 @@
   text-decoration: none;
 }
 
+.group {
+  margin-bottom: var(--space-xl);
+}
+
+.dateHeading {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-sm);
+}
+
 .list {
   list-style: none;
   display: flex;

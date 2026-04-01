@@ -1,0 +1,17 @@
+.appShell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.main {
+  flex: 1;
+  padding: var(--space-lg) 0 calc(64px + var(--space-lg));
+}
+
+/* Tablets and up */
+@media (min-width: 768px) {
+  .main {
+    padding-bottom: var(--space-lg);
+  }
+}

@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-lg);
+  padding-top: var(--space-sm);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.addBtn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+  padding: var(--space-xs) var(--space-sm);
+  border: 1.5px solid var(--color-primary);
+  border-radius: var(--radius);
+}
+
+.addBtn:hover {
+  background: var(--color-surface);
+  text-decoration: none;
+}
+
+.group {
+  margin-bottom: var(--space-xl);
+}
+
+.dateHeading {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-sm);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.empty {
+  color: var(--color-text-muted);
+  text-align: center;
+  padding: var(--space-xl) 0;
+}

@@ -1,0 +1,26 @@
+.page {
+  padding-top: var(--space-sm);
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: var(--space-lg);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.macros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+}
+
+.error {
+  font-size: 0.875rem;
+  color: var(--color-danger);
+}

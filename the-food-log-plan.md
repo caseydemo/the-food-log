@@ -15,7 +15,7 @@ Building a mobile-first food tracking app from scratch. Core data (foods, logs) 
 | Layer       | Technology                                         |
 |-------------|----------------------------------------------------|
 | Framework   | Next.js 16 — App Router, TypeScript strict mode    |
-| Database    | MongoDB with Mongoose 8                            |
+| Database    | MongoDB Atlas Flex + Mongoose 8                    |
 | CMS         | Storyblok (headless) — editorial content only      |
 | Styling     | CSS Modules, mobile-first, no utility frameworks   |
 | Testing     | Jest + React Testing Library, 80%+ coverage        |
